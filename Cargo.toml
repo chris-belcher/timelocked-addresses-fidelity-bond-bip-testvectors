@@ -1,0 +1,11 @@
+[package]
+name = "timelocked-addresses-fidelity-bond-bip-testvectors"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bitcoin-wallet = { git = "https://github.com/rust-bitcoin/rust-wallet" }
+bitcoin = { version = "0.26", features = ["base64"] }
+chrono = "0.4"
